@@ -77,8 +77,6 @@ class PasswordApp(QMainWindow):
         elif score == 3:
             strength = "Средний"
         elif score == 4:
-            strength = "Сильный"
-        else:
             strength = "Очень сильный"
 
         self.label_result.setText(f"Надёжность: {strength}")
